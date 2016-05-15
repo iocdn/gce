@@ -1,6 +1,6 @@
 # gce compute engine 準備 手順
 
-## SSH鍵の生成
+##SSH鍵の生成
 - Windowsの場合
  - TeraTerm を開く
  - 新しい接続をキャンセル
@@ -17,27 +17,17 @@
 2. [google cloud Platform](https://console.cloud.google.com/home/dashboard?project=apc0001-1302) にアクセス
  - 自分のアカウントでログインできていることを確認してください。
  - APC0001 (project id: apc0001-1302) が選択されていることを確認してください。
-![image](/images/chef-logo.png?raw=true =10x20 "Optional Title")
+![image](/images/01_instance_name.png "インスタンス名")
 
-## ツールとサービスから　[Compute Engine](https://console.cloud.google.com/compute/instances?project=apc0001-1302)を選択
-## [VMインスタンス > インスタンスを作成](https://console.cloud.google.com/compute/instancesAdd?project=apc0001-1302)
+3. ツールとサービスから　[Compute Engine](https://console.cloud.google.com/compute/instances?project=apc0001-1302)を選択
+4. [VMインスタンス > インスタンスを作成](https://console.cloud.google.com/compute/instancesAdd?project=apc0001-1302)でインスタンスを作成していきます。
+| 項目        | 値          |備考
+|:--------------:|:-------------------------------:|:-------:|
+|名前            |iocdn-apcXXXX                    |インスタンス名(任意)|
+|ブートディスク  |centos                           |OSイメージ          |
+|ファイアウォール|http/https トラフィックを許可する|                    |
+|SSH 公開鍵      |[SSH鍵の生成](#SSH鍵の生成)で作成した公開鍵|          |
 
-名前 iocdn-apc0001
-ブートディスク centos
-ファイアウォール http/https トラフィックを許可する
-管理、ディスク、ネットワーキング、SSH キー　を展開
-SSHキータブを選択
-SSH公開鍵を貼り付け
-作成
-
-
-公開鍵と秘密鍵を事前に配っておく
-
-## SSHでログイン
-
-(https://raw.githubusercontent.com/iocdn/gce/chef_short_cource01/images/chef-logo.png)
-
-![image](/images/chef-logo.png?raw=true =10x20 "Optional Title")
-
-
-<img src="/images/chef-logo.png?raw" alt="Drawing" style="width: 50px;"/>
+ - インスタンス名の入力
+ -  ["images/01_instance_name.png"
+ - a
