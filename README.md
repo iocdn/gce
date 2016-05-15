@@ -21,13 +21,12 @@
 
 3. ツールとサービスから　[Compute Engine](https://console.cloud.google.com/compute/instances?project=apc0001-1302)を選択
 4. [VMインスタンス > インスタンスを作成](https://console.cloud.google.com/compute/instancesAdd?project=apc0001-1302)でインスタンスを作成していきます。
-| 項目        | 値          |備考
-|:--------------:|:-------------------------------:|:-------:|
-|名前            |iocdn-apcXXXX                    |インスタンス名(任意)|
-|ブートディスク  |centos                           |OSイメージ          |
-|ファイアウォール|http/https トラフィックを許可する|                    |
-|SSH 公開鍵      |[SSH鍵の生成](#SSH鍵の生成)で作成した公開鍵|          |
 
- - インスタンス名の入力
- -  ["images/01_instance_name.png"
- - a
+ | 項目        | 値          |備考|
+ |:--------------:|:-------------------------------:|:-------:|
+ |名前            |iocdn-apcXXXX                    |インスタンス名(任意)|
+ |ブートディスク  |centos                           |OSイメージ          |
+ |ファイアウォール|http/https トラフィックを許可する|                    |
+ |SSH 公開鍵      |[SSH鍵の生成](#SSH鍵の生成)で作成した公開鍵|          |
+
+  - インスタンス名の入力
