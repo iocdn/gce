@@ -17,16 +17,21 @@
 2. [google cloud Platform](https://console.cloud.google.com/home/dashboard?project=apc0001-1302) にアクセス
  - 自分のアカウントでログインできていることを確認してください。
  - APC0001 (project id: apc0001-1302) が選択されていることを確認してください。
-![image](/images/01_instance_name.png "インスタンス名")
-
+ 
 3. ツールとサービスから　[Compute Engine](https://console.cloud.google.com/compute/instances?project=apc0001-1302)を選択
 4. [VMインスタンス > インスタンスを作成](https://console.cloud.google.com/compute/instancesAdd?project=apc0001-1302)でインスタンスを作成していきます。
 
  | 項目        | 値          |備考|
  |:--------------:|:-------------------------------:|:-------:|
  |名前            |iocdn-apcXXXX                    |インスタンス名(任意)|
- |ブートディスク  |centos                           |OSイメージ          |
+ |ブートイメージ  |centos                           |OSイメージ          |
  |ファイアウォール|http/https トラフィックを許可する|                    |
  |SSH 公開鍵      |[SSH鍵の生成](#SSH鍵の生成)で作成した公開鍵|          |
 
   - インスタンス名の入力
+  
+   ![image](/images/01_instance_name.png "インスタンス名")
+  
+  -  ブートイメージの選択
+  
+   ![image](/images/02_bootdisk.png "ブートイメージの選択")
