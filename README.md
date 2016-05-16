@@ -12,7 +12,7 @@
  - ssh-keygen -t rsa コマンドで公開鍵/秘密鍵を生成してください。
 
 ## compute engine の作成
-1. [apcom アカウント](http://wmail.ap-com.co.jp/)でgoogleにログイン
+1. [apcアカウント](http://wmail.ap-com.co.jp/)でgoogleにログイン
 
 2. [google cloud Platform](https://console.cloud.google.com/home/dashboard?project=apc0001-1302) にアクセス
  - 自分のアカウントでログインできていることを確認してください。
