@@ -35,3 +35,24 @@
   -  ブートイメージの選択
   
    ![image](/images/02_bootdisk.png "ブートイメージの選択")
+  
+   ![image](/images/03_bootdisk_select.png "ブートイメージの選択2")
+   
+  - ファイアウォールの設定
+  
+   ![image](/images/04_firewall.png "ファイアウォールの設定")
+  
+  - SSHキー登録
+  
+   ![image](/images/05_ssh1.png "SSHキー登録1")
+  
+   ![image](/images/06_ssh2.png "SSHキー登録2")
+  
+  - 作成
+  
+   ![image](/images/07_create.png "作成")
+  
+  - 外部IPの確認
+  
+   ![image](/images/08_create2.png "作成")
+  
