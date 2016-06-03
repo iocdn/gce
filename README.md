@@ -1,5 +1,8 @@
 # gce compute engine 準備
-## VMにログインするためのSSHの鍵の作成
+
+## SSHの鍵の作成
+
+### 1台目の仮想マシン(__apc-社員番号__)ログイン用 SSH鍵作成
 
 - Windowsの場合
  - TeraTerm を開く
@@ -11,9 +14,19 @@
 - Macの場合
  - ssh-keygen -t rsa コマンドで公開鍵/秘密鍵を生成してください。
 
-## 2台目のVMにログインするための鍵生成
+### 2台目の仮想マシン(__apc-社員番号2__ )ログイン用 SSH 鍵生成
+ - 1台目の仮想マシンにログインできましたら、1台目の仮想マシン以下の手順でSSH鍵を作成してください。
+ - 作成したSSH鍵の公開鍵は, 2台目の仮想マシン作成時、 __SSHキー登録__ で登録してください。
+ 
+```bash
+ $ ssh-keygen -t rsa -P ''
+  Enter file in which to save the key (/アカウント名/.ssh/id_rsa): そのまま[ENTER]
+  
+ $ cat ~/.ssh/id_rsa.pub
+ = 以下に表示される内容をコピーして登録してください =
+```
 
-## compute engine の作成
+## 仮想マシン(以下VM) の作成
 1. [apcアカウント](http://wmail.ap-com.co.jp/)でgoogleにログイン
 
 2. [google cloud Platform](https://console.cloud.google.com/home/dashboard?project=apc0001-1302) にアクセス
