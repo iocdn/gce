@@ -31,9 +31,9 @@
 ## 仮想マシン(以下VM) の作成
 1. [apcアカウント](http://wmail.ap-com.co.jp/)でgoogleにログイン
 
-2. [google cloud Platform](https://console.cloud.google.com/home/dashboard?project=apc0001-1302) にアクセス
+2. [google cloud Platform](https://console.cloud.google.com/home/dashboard) にアクセス
  - 自分のアカウントでログインできていることを確認してください。
- - APC0001 (project id: apc0001-1302) が選択されていることを確認してください。
+ - APC0001 or APC0002 or APC0003 (project id: apc000[123]-1302) が選択されていることを確認してください。
  
 3. ツールとサービスから　[Compute Engine](https://console.cloud.google.com/compute/instances?project=apc0001-1302)を選択
 4. [VMインスタンス > インスタンスを作成](https://console.cloud.google.com/compute/instancesAdd?project=apc0001-1302)でインスタンスを作成していきます。
